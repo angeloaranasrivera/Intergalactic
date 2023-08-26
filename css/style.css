@@ -52,7 +52,25 @@ body{
   margin: auto;
   margin-top: 3%;
   border-radius: 2px;
-  outline-style: solid;
-  outline-color: red;
+
+  /* jamil: i comment ko lang to ddi bagay ih  */
+  /* outline-style: solid; */
+  /* outline-color: red; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s ease-out;
 }
 
+/*  
+  jamil: dagdag ko lang haha.
+*/
+.box:hover{
+  scale: 1.2;
+  transition: 1s ease-in;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
