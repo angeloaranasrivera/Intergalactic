@@ -1,37 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Intergalactic</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="topnav">
-    <div class="logo">
-      <a href=""><img src="img/logo.png" alt=""></a>
-    </div>
-    <a href="">Link1</a>
-    <a href="">Link2</a>
-    <a href="">Link3</a>
-  </div>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
 
-  <!-- SECTION 1 -->
-  <section class="sec1">
-    <div class="box">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    </div>
-    <div class="box">
+    <title>Intergalactic</title>
+  </head>
+
+  <body>
+    <!-- TOPNAV -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
       
-    </div>
-    <div class="box">
-      
-    </div>
-  </section>
+    <!-- MOBILE TOPNAV -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
 
-<!-- 
-huehue may multo dito AWOOOOOOOOOOOOOOOOOOOOOO
+    <!-- CONTENTS -->
+    <div class="row"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="pic1" src="img/barong.jpg">
+                        <span class="card-title">Angelo A. Rivera</span>
+                    </div>
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width">
+                          <li class="tab"><a class="active" href="#test4">Info</a></li>
+                          <li class="tab"><a href="#test5">Part</a></li>
+                          <li class="tab"><a href="#test6">Contacts</a></li>
+                        </ul>
+                      </div>
+                      <div class="card-content grey lighten-4">
+                        <div id="test4">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</div>
+                        <div id="test5">Test 2</div>
+                        <div id="test6">Test 3</div>
+                      </div>
+                </div>
+            </div>
 
- -->
-</body>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="pic1" src="img/barong.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="pic1" src="img/barong.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>
+      
